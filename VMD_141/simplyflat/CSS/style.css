@@ -63,6 +63,139 @@ ul {
     height: auto;
 }
 
+html {
+    -webkit-box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*,
+*:before
+*:after {
+    -webkit-box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Header Elements*/
+.brand {
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+.nav {
+    padding-top: 60px;
+}
+.pull-right {
+    float: right;
+}
+
+/*Footer Class*/
+
+.social {
+    text-align: center;
+}
+
+/* Home page CSS*/
+.message {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+main-content-top h1 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.main-content-bottom {
+    padding-top: 75px;
+}
+
+.blog-tease {
+    height: 210px;
+}
+
+/* About page CSS */
+
+.team h1 {
+    margin-bottom: 40px;
+}
+
+.team-member {
+    margin-bottom: 20px;
+}
+
+/* Portfolio*/
+.portfolio-item {
+    margin-bottom: 10px;
+}
+
+.portfolio-title {
+    display: none;
+    /*hide portfolio image text*/
+}
+
+/*Blog Page*/
+
+.info li {
+    display: inline-block;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.recent-entries img {
+    float: left;
+    padding-right: 10px;
+}
+
+.photos img {
+    padding-right: 10px;
+    padding: 10px;
+}
+
+/* Contact Page*/
+
+.table, 
+.formp, 
+.map h2 {
+    margin-left: 15px;
+}
+
+/*Main Content*/
+
+.page-header {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.page-header p {
+    padding-left: 15px;
+}
+
+/*home page CSS*/
+
+.page-header.home {
+    margin-bottom: 0;
+}
+
+.message {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content-top h1{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.main-content-bottom {
+    padding-bottom: 75px;
+}
+
+.blog-tease {
+    height: 210px;
+}
 
 
 
