@@ -112,6 +112,7 @@ main-content-top h1 {
 
 .blog-tease {
     height: 210px;
+    color: #ffffff;
 }
 
 /* About page CSS */
@@ -182,6 +183,7 @@ main-content-top h1 {
 .message {
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #4cd2da;
 }
 
 .main-content-top h1{
@@ -197,5 +199,105 @@ main-content-top h1 {
     height: 210px;
 }
 
+/* global sectors */
 
+body {
+    color: #00b5f1;
+    background-color: #edecea;
+}
+
+h1 {
+    color: #1e1f1f;
+}
+
+h2 {
+    color: #1e1f1f;
+}
+
+h3{
+    color: #1e1f1f;
+}
+
+h4 {
+    color: #1e1f1f;
+}
+
+a {
+    color: #ffffff;
+}
+
+/* color selectors */
+
+.header {
+    background-color: #373737;
+}
+
+.footer {
+    background-color: #373737;
+}
+
+.footer h4 {
+    color: #ffffff;
+}
+
+.footer p {
+    color: #999999;
+}
+
+.footer-bottom {
+    background-color: #1e1f1f;
+    color: #ffffff;
+}
+
+.page-header {
+    background-color: #5adae2;
+    color: #ffffff;
+}
+
+.message h3 {
+    color: #ffffff;
+}
+
+.contentbox {
+    background-color: #ffffff;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox-beige {
+    background-color: #f6fffb;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox-turquoise {
+    background-color: #5adae2;
+    padding: 10px;
+    margin-bottom: 70px;
+}
+
+.contentbox>img {
+    float: left;
+    margin-right: 15px;
+}
+
+.contentbox-beige>img {
+    float: left;
+    margin-right: 15px;
+}
+
+.tile {
+    border-color: #5adae2;
+    color: #ffffff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-tease h2 {
+    color: #ffffff;
+}
+
+.one-quarter {
+    width: 220px;
+}
 
