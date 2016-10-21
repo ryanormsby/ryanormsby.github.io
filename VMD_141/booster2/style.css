@@ -75,7 +75,7 @@ h4 {
 
 a {
     text-decoration: none;
-    color: cadetblue;
+    color: white;
     font-weight: 800;
 }
 
@@ -83,10 +83,34 @@ p {
     color: chocolate;
     font-family: 'NTR', sans-serif;
     font-size: 1.35em;
-    padding-top: 15px;
+    margin-top: 10px;
+    
 }
 
 .icon-color {
     color: salmon;
+}
+
+.button {
+    background-color: salmon; 
+    border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: cadetblue;
+    color: white;
+}
+
+.padding-top {
+    padding-top: 20px;
 }
 
