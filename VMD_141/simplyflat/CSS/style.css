@@ -21,7 +21,7 @@ width: 960px;
 
 .three-quarters {
     
-    width:700ps;
+    width:700px;
 }
 
 .one-half {
@@ -56,6 +56,7 @@ nav ul li {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .img-responsive {
@@ -81,9 +82,14 @@ html {
 .brand {
     padding-top: 45px;
     padding-bottom: 45px;
+    font-size: 18px;
 }
 .nav {
     padding-top: 60px;
+}
+
+.nav li {
+    font-size: 18px;
 }
 .pull-right {
     float: right;
@@ -101,9 +107,14 @@ html {
     padding-bottom: 60px;
 }
 
-main-content-top h1 {
+.main-content-top h1 {
     padding-top: 70px;
     padding-bottom: 70px;
+}
+
+.main-content-top i {
+    color: #5adae2;
+    vertical-align: -10px;
 }
 
 .main-content-bottom {
@@ -142,7 +153,8 @@ main-content-top h1 {
 }
 
 .sidebar {
-    padding: 10px;
+    padding: 30px;
+    
 }
 
 .recent-entries img {
@@ -158,7 +170,7 @@ main-content-top h1 {
 /* Contact Page*/
 
 .table, 
-.formp, 
+.form p, 
 .map h2 {
     margin-left: 15px;
 }
@@ -172,12 +184,15 @@ main-content-top h1 {
 
 .page-header p {
     padding-left: 15px;
+    font-size: 26px;
 }
 
 /*home page CSS*/
 
 .page-header.home {
     margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
 }
 
 .message {
@@ -199,15 +214,28 @@ main-content-top h1 {
     height: 210px;
 }
 
+.page-header.home p {
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.page-header.home a {
+    padding-left: 35px;
+}
+
 /* global sectors */
 
 body {
-    color: #00b5f1;
+    color: #999;
     background-color: #edecea;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
 }
 
 h1 {
     color: #1e1f1f;
+    font-size: 32px;
 }
 
 h2 {
@@ -216,14 +244,22 @@ h2 {
 
 h3{
     color: #1e1f1f;
+    font-size: 24px;
+    font-weight: 200;
 }
 
 h4 {
     color: #1e1f1f;
+    font-size: 18px;
 }
 
 a {
     color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
 }
 
 /* color selectors */
@@ -242,6 +278,15 @@ a {
 
 .footer p {
     color: #999999;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 0;
+}
+
+.footer ul {
+    font-size: 16px;
+    font-weight: 200;
+    
 }
 
 .footer-bottom {
@@ -249,6 +294,17 @@ a {
     color: #ffffff;
 }
 
+.social-list li{
+    display: inline-block;
+}
+
+.social-list i {
+    background-color: #2D2D2D;
+    margin: 5px 10px 0 0;
+    padding: 3px;
+    width: 40px;
+    display: inline-block;
+}
 .page-header {
     background-color: #5adae2;
     color: #ffffff;
@@ -286,11 +342,35 @@ a {
     margin-right: 15px;
 }
 
+.contentbox h4 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contentbox li {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.contentbox i {
+    color: #5adae2;
+}
+
 .tile {
     border-color: #5adae2;
     color: #ffffff;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 0 0 5px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.tile p {
+    margin: 0;
+}
+
+.tile i {
+    font-size: 108px;
 }
 
 .blog-tease h2 {
@@ -301,3 +381,57 @@ a {
     width: 220px;
 }
 
+.team-member h1 {
+    text-align: center;
+}
+
+.team-member ul {
+    text-align: right;
+}
+
+.team-member li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.team-member a {
+    color: #1e1f1f;
+}
+
+.team-member i {
+    background-color: #edecea;
+    color: #1e1f1f;
+    font-size: 16px;
+    padding: 3px;
+    margin: 0;
+    width: 22px;
+    display: inline-block;
+    text-align: center;
+}
+
+.address, .address a {
+    color: #1e1f1f;
+}
+
+.info li {
+    font-size: 14px;
+        background-color: #edecea;
+    padding: 5px 8px;
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+
+.info i {
+    color: #1e1f1f;
+    display: inline-block;
+    width: 22px;
+    text-align: center;
+}
+
+.sidebar p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #1e1f1f;
+}
