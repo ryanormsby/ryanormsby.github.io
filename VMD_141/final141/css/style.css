@@ -91,7 +91,7 @@ nav ul li {
     color: #B45737;
 }
 
-.active a {
+.active {
     color: #B45737;
 }
 
@@ -142,7 +142,7 @@ nav ul li {
     margin-right: 50px;
     line-height: 1.5em;
     font-size: 11px;
-    color: dimgrey;
+    
 }
 
 .content-box-white {
@@ -214,11 +214,15 @@ nav ul li {
 
 .date {
     background-color: black;
-    width: 85px;
-    text-align: center;
     color: white;
+    width: 85px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
     
 }
+
+
 
 /*About*/
 .about-box-grey {
