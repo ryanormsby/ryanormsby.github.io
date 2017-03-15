@@ -1,0 +1,55 @@
+/* It is recommended to place all your extra/additional CSS rules here */
+
+h1 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+h4 {
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
+}
+
+#left-sidebar #main-menu {
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+
+#left-sidebar #main-menu:hover {
+    font-family: 'Archivo Black', sans-serif;
+    
+}
+
+.stroke img{
+    position: relative;
+    
+}
+
+#video-content {
+    display:block;
+    position: relative;
+    margin: 0;
+    overflow: visible;
+    min-height: ;
+    background-color: white;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+    @media (min-width: 768px) {
+        #video-content {
+            
+            height:auto;
+            margin:0 0 0 15%;
+        }
+    }
+    @media (min-width: 992px) {
+        #video-content {
+            height:auto;
+            margin:0 0 0 15%;
+        }
+    }
+    @media (min-width: 1200px) {
+
+    }
+
